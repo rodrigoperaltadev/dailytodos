@@ -5,8 +5,6 @@ import { initializeApp } from 'firebase/app'
 import { firebaseConfig } from './infrastructure/firebase/config'
 import { theme } from './presentation/utils/theme/theme'
 
-const algo = 9
-
 // Inicialización de la aplicación de Firebase
 initializeApp(firebaseConfig)
 
